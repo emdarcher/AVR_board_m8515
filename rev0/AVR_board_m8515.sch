@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:AVR_board_m8515-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -386,4 +387,97 @@ Wire Wire Line
 	7250 3850 7250 3950
 Wire Wire Line
 	7350 3850 7350 3950
+$Comp
+L VCC #PWR?
+U 1 1 54189251
+P 6600 800
+F 0 "#PWR?" H 6600 900 30  0001 C CNN
+F 1 "VCC" H 6600 900 30  0000 C CNN
+F 2 "" H 6600 800 60  0000 C CNN
+F 3 "" H 6600 800 60  0000 C CNN
+	1    6600 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 800  6600 1000
+Wire Wire Line
+	6600 1000 6700 1000
+Text GLabel 6500 1100 0    60   Input ~ 0
+PA0
+Text GLabel 6500 1200 0    60   Input ~ 0
+PA1
+Text GLabel 6500 1300 0    60   Input ~ 0
+PA2
+Text GLabel 6500 1400 0    60   Input ~ 0
+PA3
+Text GLabel 6500 1500 0    60   Input ~ 0
+PA4
+Text GLabel 6500 1600 0    60   Input ~ 0
+PA5
+Text GLabel 6500 1700 0    60   Input ~ 0
+PA6
+Text GLabel 6500 1800 0    60   Input ~ 0
+PA7
+Text GLabel 6500 1900 0    60   Input ~ 0
+PE0
+Text GLabel 6500 2000 0    60   Input ~ 0
+PE1
+Text GLabel 6500 2100 0    60   Input ~ 0
+PE2
+Text GLabel 6500 2200 0    60   Input ~ 0
+PC7
+Text GLabel 6500 2300 0    60   Input ~ 0
+PC6
+Text GLabel 6500 2400 0    60   Input ~ 0
+PC5
+Text GLabel 6500 2500 0    60   Input ~ 0
+PC4
+Text GLabel 6500 2600 0    60   Input ~ 0
+PC3
+Text GLabel 6500 2700 0    60   Input ~ 0
+PC2
+Text GLabel 6500 2800 0    60   Input ~ 0
+PC1
+Text GLabel 6500 2900 0    60   Input ~ 0
+PC0
+Text GLabel 3800 1000 2    60   Input ~ 0
+PB0
+Text GLabel 3800 1100 2    60   Input ~ 0
+PB1
+Text GLabel 3800 1200 2    60   Input ~ 0
+PB2
+Text GLabel 3800 1300 2    60   Input ~ 0
+PB3
+Text GLabel 3800 1400 2    60   Input ~ 0
+PB4
+Text GLabel 3800 1500 2    60   Input ~ 0
+PB5
+Text GLabel 3800 1600 2    60   Input ~ 0
+PB6
+Text GLabel 3800 1700 2    60   Input ~ 0
+PB7
+Text GLabel 3800 1800 2    60   Input ~ 0
+RESET
+Text GLabel 3800 1900 2    60   Input ~ 0
+PD0
+Text GLabel 3800 2000 2    60   Input ~ 0
+PD1
+Text GLabel 3800 2100 2    60   Input ~ 0
+PD2
+Text GLabel 3800 2200 2    60   Input ~ 0
+PD3
+Text GLabel 3800 2300 2    60   Input ~ 0
+PD4
+Text GLabel 3800 2400 2    60   Input ~ 0
+PD5
+Text GLabel 3800 2500 2    60   Input ~ 0
+PD6
+Text GLabel 3800 2600 2    60   Input ~ 0
+PD7
+Text GLabel 3800 2700 2    60   Input ~ 0
+XTAL2
+Text GLabel 3800 2800 2    60   Input ~ 0
+XTAL1
+Text GLabel 3800 2900 2    60   Input ~ 0
+GND
 $EndSCHEMATC
