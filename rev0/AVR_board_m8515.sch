@@ -480,4 +480,82 @@ Text GLabel 3800 2800 2    60   Input ~ 0
 XTAL1
 Text GLabel 3800 2900 2    60   Input ~ 0
 GND
+Wire Wire Line
+	3800 1000 3600 1000
+Wire Wire Line
+	3800 1100 3600 1100
+Wire Wire Line
+	3800 1200 3600 1200
+Wire Wire Line
+	3800 1300 3600 1300
+Wire Wire Line
+	3800 1400 3600 1400
+Wire Wire Line
+	3800 1500 3600 1500
+Wire Wire Line
+	3800 1600 3600 1600
+Wire Wire Line
+	3800 1700 3600 1700
+Wire Wire Line
+	3800 1800 3600 1800
+Wire Wire Line
+	3800 1900 3600 1900
+Wire Wire Line
+	3800 2000 3600 2000
+Wire Wire Line
+	3800 2100 3600 2100
+Wire Wire Line
+	3800 2200 3600 2200
+Wire Wire Line
+	3800 2300 3600 2300
+Wire Wire Line
+	3600 2400 3800 2400
+Wire Wire Line
+	3800 2500 3600 2500
+Wire Wire Line
+	3800 2600 3600 2600
+Wire Wire Line
+	3800 2700 3600 2700
+Wire Wire Line
+	3800 2800 3600 2800
+Wire Wire Line
+	3800 2900 3600 2900
+Wire Wire Line
+	6500 1100 6700 1100
+Wire Wire Line
+	6700 1200 6500 1200
+Wire Wire Line
+	6500 1300 6700 1300
+Wire Wire Line
+	6700 1400 6500 1400
+Wire Wire Line
+	6700 1500 6500 1500
+Wire Wire Line
+	6700 1600 6500 1600
+Wire Wire Line
+	6700 1700 6500 1700
+Wire Wire Line
+	6700 1800 6500 1800
+Wire Wire Line
+	6700 1900 6500 1900
+Wire Wire Line
+	6700 2000 6500 2000
+Wire Wire Line
+	6700 2100 6500 2100
+Wire Wire Line
+	6700 2200 6500 2200
+Wire Wire Line
+	6700 2300 6500 2300
+Wire Wire Line
+	6700 2400 6500 2400
+Wire Wire Line
+	6700 2500 6500 2500
+Wire Wire Line
+	6700 2600 6500 2600
+Wire Wire Line
+	6500 2700 6700 2700
+Wire Wire Line
+	6700 2800 6500 2800
+Wire Wire Line
+	6500 2900 6700 2900
 $EndSCHEMATC
