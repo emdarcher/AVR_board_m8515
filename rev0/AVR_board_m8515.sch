@@ -558,4 +558,201 @@ Wire Wire Line
 	6700 2800 6500 2800
 Wire Wire Line
 	6500 2900 6700 2900
+$Comp
+L ATMEGA8515-M IC?
+U 1 1 5418A671
+P 9700 3300
+F 0 "IC?" H 8900 5200 40  0000 C CNN
+F 1 "ATMEGA8515-M" H 10300 1400 40  0000 C CNN
+F 2 "MLF/QFN44" H 9700 3300 35  0000 C CIN
+F 3 "" H 9700 3300 60  0000 C CNN
+	1    9700 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5418A680
+P 10000 1250
+F 0 "#PWR?" H 10000 1250 30  0001 C CNN
+F 1 "GND" H 10000 1180 30  0001 C CNN
+F 2 "" H 10000 1250 60  0000 C CNN
+F 3 "" H 10000 1250 60  0000 C CNN
+	1    10000 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1300 9700 1150
+Wire Wire Line
+	9700 1150 10000 1150
+Wire Wire Line
+	10000 1150 10000 1250
+Text GLabel 8600 1600 0    60   Input ~ 0
+PD7
+Text GLabel 8600 1700 0    60   Input ~ 0
+PD6
+Text GLabel 8600 1800 0    60   Input ~ 0
+PD5
+Text GLabel 8600 1900 0    60   Input ~ 0
+PD4
+Text GLabel 8600 2000 0    60   Input ~ 0
+PD3
+Text GLabel 8600 2100 0    60   Input ~ 0
+PD2
+Text GLabel 8600 2200 0    60   Input ~ 0
+PD1
+Text GLabel 8600 2300 0    60   Input ~ 0
+PD0
+Text GLabel 8600 2500 0    60   Input ~ 0
+PC7
+Text GLabel 8600 2600 0    60   Input ~ 0
+PC6
+Text GLabel 8600 2700 0    60   Input ~ 0
+PC5
+Text GLabel 8600 2800 0    60   Input ~ 0
+PC4
+Text GLabel 8600 2900 0    60   Input ~ 0
+PC3
+Text GLabel 8600 3000 0    60   Input ~ 0
+PC2
+Text GLabel 8600 3100 0    60   Input ~ 0
+PC1
+Text GLabel 8600 3200 0    60   Input ~ 0
+PC0
+Text GLabel 8600 3400 0    60   Input ~ 0
+PB7
+Text GLabel 8600 3500 0    60   Input ~ 0
+PB6
+Text GLabel 8600 3600 0    60   Input ~ 0
+PB5
+Text GLabel 8600 3700 0    60   Input ~ 0
+PB4
+Text GLabel 8600 3800 0    60   Input ~ 0
+PB3
+Text GLabel 8600 3900 0    60   Input ~ 0
+PB2
+Text GLabel 8600 4000 0    60   Input ~ 0
+PB1
+Text GLabel 8600 4100 0    60   Input ~ 0
+PB0
+Text GLabel 8600 4300 0    60   Input ~ 0
+PA7
+Text GLabel 8600 4400 0    60   Input ~ 0
+PA6
+Text GLabel 8600 4500 0    60   Input ~ 0
+PA5
+Text GLabel 8600 4600 0    60   Input ~ 0
+PA4
+Text GLabel 8600 4700 0    60   Input ~ 0
+PA3
+Text GLabel 8600 4800 0    60   Input ~ 0
+PA2
+Text GLabel 8600 4900 0    60   Input ~ 0
+PA1
+Text GLabel 8600 5000 0    60   Input ~ 0
+PA0
+$Comp
+L VCC #PWR?
+U 1 1 5418A7C7
+P 9950 5300
+F 0 "#PWR?" H 9950 5400 30  0001 C CNN
+F 1 "VCC" H 9950 5400 30  0000 C CNN
+F 2 "" H 9950 5300 60  0000 C CNN
+F 3 "" H 9950 5300 60  0000 C CNN
+	1    9950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5300 9700 5400
+Wire Wire Line
+	9700 5400 9950 5400
+Wire Wire Line
+	9950 5400 9950 5300
+Text GLabel 10800 5000 2    60   Input ~ 0
+RESET
+Text GLabel 10800 4500 2    60   Input ~ 0
+XTAL2
+Text GLabel 10800 4100 2    60   Input ~ 0
+XTAL1
+Text GLabel 10800 2300 2    60   Input ~ 0
+PE0
+Text GLabel 10800 2200 2    60   Input ~ 0
+PE1
+Text GLabel 10800 2100 2    60   Input ~ 0
+PE2
+Wire Wire Line
+	10800 4100 10700 4100
+Wire Wire Line
+	10800 4500 10700 4500
+Wire Wire Line
+	10800 5000 10700 5000
+Wire Wire Line
+	10800 2100 10700 2100
+Wire Wire Line
+	10800 2200 10700 2200
+Wire Wire Line
+	10800 2300 10700 2300
+Wire Wire Line
+	8600 1600 8700 1600
+Wire Wire Line
+	8600 1700 8700 1700
+Wire Wire Line
+	8700 1800 8600 1800
+Wire Wire Line
+	8600 1900 8700 1900
+Wire Wire Line
+	8700 2000 8600 2000
+Wire Wire Line
+	8700 2100 8600 2100
+Wire Wire Line
+	8700 2200 8600 2200
+Wire Wire Line
+	8700 2300 8600 2300
+Wire Wire Line
+	8700 2500 8600 2500
+Wire Wire Line
+	8700 2600 8600 2600
+Wire Wire Line
+	8700 2700 8600 2700
+Wire Wire Line
+	8700 2800 8600 2800
+Wire Wire Line
+	8700 2900 8600 2900
+Wire Wire Line
+	8700 3000 8600 3000
+Wire Wire Line
+	8700 3100 8600 3100
+Wire Wire Line
+	8700 3200 8600 3200
+Wire Wire Line
+	8700 3400 8600 3400
+Wire Wire Line
+	8700 3500 8600 3500
+Wire Wire Line
+	8700 3600 8600 3600
+Wire Wire Line
+	8700 3700 8600 3700
+Wire Wire Line
+	8700 3800 8600 3800
+Wire Wire Line
+	8700 3900 8600 3900
+Wire Wire Line
+	8700 4000 8600 4000
+Wire Wire Line
+	8700 4100 8600 4100
+Wire Wire Line
+	8700 4300 8600 4300
+Wire Wire Line
+	8700 4400 8600 4400
+Wire Wire Line
+	8700 4500 8600 4500
+Wire Wire Line
+	8700 4600 8600 4600
+Wire Wire Line
+	8700 4700 8600 4700
+Wire Wire Line
+	8700 4800 8600 4800
+Wire Wire Line
+	8700 4900 8600 4900
+Wire Wire Line
+	8700 5000 8600 5000
 $EndSCHEMATC
