@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 16 Sep 2014 08:59:28 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 16 Sep 2014 09:39:15 PM PDT
 
 BeginCmp
 TimeStamp = /54186C0A;
@@ -57,6 +57,13 @@ IdModule  = atmel-MLF44;
 EndCmp
 
 BeginCmp
+TimeStamp = /54191199;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5418FA1D;
 Reference = K1;
 ValeurCmp = SERIAL;
@@ -89,6 +96,13 @@ TimeStamp = /54186E86;
 Reference = P4;
 ValeurCmp = RIGHT_HEADER;
 IdModule  = pinarray_20x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54190E9B;
+Reference = P5;
+ValeurCmp = EXT_PWR;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
