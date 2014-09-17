@@ -1,4 +1,4 @@
-update=Tue 16 Sep 2014 09:52:12 PM PDT
+update=Wed 17 Sep 2014 03:16:02 PM PDT
 version=1
 last_client=pcbnew
 [eeschema]
@@ -86,3 +86,5 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/sethan/Documents/electronics-robotics/business/git-repos/git-cad/AVR_board_m8515/modules/my_headers
 LibName18=/home/sethan/Documents/electronics-robotics/business/git-repos/git-cad/AVR_board_m8515/modules/emdarcher_logo128x128_flip_try1
+LibName19=/home/sethan/Documents/electronics-robotics/business/git-repos/git-cad/AVR_board_m8515/modules/oshw_100px_flip_try1
+LibName20=/home/sethan/Documents/electronics-robotics/business/git-repos/git-cad/AVR_board_m8515/modules/just_oshw_logo_try2
